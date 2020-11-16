@@ -16,11 +16,12 @@ const common_1 = require("@nestjs/common");
 const tokens_1 = require("../../tokens/tokens");
 const mailgunConfig = require("mailgun-js");
 let MailgunService = class MailgunService {
-    constructor(apiKey, domain, publicApiKey) {
+    constructor(apiKey, domain, publicApiKey, url) {
         this.apiKey = apiKey;
         this.domain = domain;
         this.publicApiKey = publicApiKey;
-        this.mailgun = mailgunConfig({ apiKey, domain, publicApiKey });
+        this.url = url;
+        this.mailgun = mailgunConfig({ apiKey, domain, publicApiKey, url });
     }
     sendEmail(emailOptions) {
         return new Promise((resolve, reject) => {
@@ -54,7 +55,8 @@ MailgunService = __decorate([
     __param(0, common_1.Inject(tokens_1.API_KEY)),
     __param(1, common_1.Inject(tokens_1.DOMAIN)),
     __param(2, common_1.Inject(tokens_1.PUBLIC_API_KEY)),
-    __metadata("design:paramtypes", [Object, Object, Object])
+    __param(3, common_1.Inject(tokens_1.URL)),
+    __metadata("design:paramtypes", [Object, Object, Object, Object])
 ], MailgunService);
 exports.MailgunService = MailgunService;
 //# sourceMappingURL=mailgun.service.js.map

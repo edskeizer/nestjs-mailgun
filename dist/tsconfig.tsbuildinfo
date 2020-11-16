@@ -902,20 +902,20 @@
         "signature": "abec56db8d9e8c0be53354ab0f3e6bc5a888ea005f32e43f9893ae1e49360db7"
       },
       "../src/nestjs-mailgun/configuration.ts": {
-        "version": "d673cd0ff33064dcc93e04720da6be9d670eac44368fd3b02ee96d0d0516e4cc",
-        "signature": "08e8356bf455740a108d6a0f76dc7e823c4748c779718b55bffaf7e3688ac1fe"
+        "version": "6efa67d038410e5c1e4047a140e9dfa4e98b2679347f579b94f974e9c2d0a88a",
+        "signature": "427a18f2e88fc46b0a66a7db8f13e18d97793ea1f6c5e83e836bf26e410c03ea"
       },
       "../src/nestjs-mailgun/tokens/tokens.ts": {
-        "version": "3384c815295244169421c6aa0dadd2db6a61b7fa52de3b26abbc95501c662719",
-        "signature": "3b7ff4dcea9b880f0420c96286c8658fd0c39cc8098ddfbaaf9cf53b641f5c13"
+        "version": "fa7022fb13cd561ba31254a1c98c93bcf1dd1f33768c9e4ec53abe020515d42d",
+        "signature": "818b1b1828b98d82a01aa83adeae74f72ee2649be6516768744ae2551a5e14f3"
       },
       "../src/nestjs-mailgun/services/relay/mailgun.service.ts": {
-        "version": "12d3d12c51d765e399e1c1f583b6eb9d20dc14b248255696c7da76c7f539c1d6",
-        "signature": "85d212345a4e359a95a2b416110347c09a79d35b2ffcdb42154cc001962ffd89"
+        "version": "1baf3b2b77ae54921c10e17a313989683794b9195bbdd9d8fb084c150d35062d",
+        "signature": "00950cbe02bb05ee8681eb034d4da00b684d7e70af23364514ffd41c97fa5722"
       },
       "../src/nestjs-mailgun/mailgun.module.ts": {
-        "version": "6977d618e5d01f885684c86f8b3ccd83fe40324a19ccb00c4944b6256a02488b",
-        "signature": "a656e633f6ad33e7dfeb932662a662200a465efe0f51cbaeaabeb27686235f7b"
+        "version": "077b5991c338a8f99d41c582b41a114e39332d5651bf7552641fcf5b6dba4484",
+        "signature": "4a78558eed2426972b9968782d16b7cc7f8f8304c8d7cd596109be909b60660f"
       },
       "../src/index.ts": {
         "version": "ae073bbfc33fa12a70d6d9f7e22c1423cb9a51ea036d83faa749f7ef010eec20",
@@ -7249,9 +7249,6 @@
       "../node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
       "../node_modules/@nestjs/common/utils/index.d.ts",
       "../node_modules/@nestjs/common/index.d.ts",
-      "../src/nestjs-mailgun/configuration.ts",
-      "../src/nestjs-mailgun/tokens/tokens.ts",
-      "../src/nestjs-mailgun/services/relay/mailgun.service.ts",
       "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
       "../node_modules/@nestjs/core/metadata-scanner.d.ts",
       "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
@@ -7295,7 +7292,6 @@
       "../node_modules/@nestjs/testing/interfaces/index.d.ts",
       "../node_modules/@nestjs/testing/test.d.ts",
       "../node_modules/@nestjs/testing/index.d.ts",
-      "../src/nestjs-mailgun/services/relay/mailgun.service.spec.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@types/babel__generator/index.d.ts",
       "../node_modules/@types/babel__traverse/index.d.ts",
@@ -7374,7 +7370,11 @@
       "../node_modules/@types/supertest/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
+      "../src/nestjs-mailgun/configuration.ts",
       "../src/nestjs-mailgun/mailgun.module.ts",
+      "../src/nestjs-mailgun/tokens/tokens.ts",
+      "../src/nestjs-mailgun/services/relay/mailgun.service.ts",
+      "../src/nestjs-mailgun/services/relay/mailgun.service.spec.ts",
       "../src/index.ts"
     ]
   },

@@ -6,6 +6,14 @@ export declare class MailgunModule {
         providers: (typeof MailgunService | {
             provide: string;
             useValue: string;
+        } | {
+            provide: {
+                new (url: string, base?: string | URL): URL;
+                prototype: URL;
+                createObjectURL(object: any): string;
+                revokeObjectURL(url: string): void;
+            };
+            useValue: string;
         })[];
         exports: (typeof MailgunService)[];
     };

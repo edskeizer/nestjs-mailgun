@@ -18,6 +18,7 @@ export class MailgunModule {
           useValue: config.PUBLIC_API_KEY ? config.PUBLIC_API_KEY : '',
         },
         { provide: DOMAIN, useValue: config.DOMAIN },
+        { provide: URL, useValue: config.URL ? config.URL : 'https://api.mailgun.net' },
         MailgunService,
       ],
       exports: [MailgunService],
