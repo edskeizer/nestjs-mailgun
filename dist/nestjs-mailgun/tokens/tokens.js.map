@@ -1,1 +1,1 @@
-{"version":3,"file":"tokens.js","sourceRoot":"","sources":["../../../src/nestjs-mailgun/tokens/tokens.ts"],"names":[],"mappings":";;AAAa,QAAA,OAAO,GAAG,SAAS,CAAC;AACpB,QAAA,cAAc,GAAG,gBAAgB,CAAC;AAClC,QAAA,MAAM,GAAG,QAAQ,CAAC;AAClB,QAAA,GAAG,GAAG,KAAK,CAAC"}
+{"version":3,"file":"tokens.js","sourceRoot":"","sources":["../../../src/nestjs-mailgun/tokens/tokens.ts"],"names":[],"mappings":";;AAAa,QAAA,OAAO,GAAG,SAAS,CAAC;AACpB,QAAA,cAAc,GAAG,gBAAgB,CAAC;AAClC,QAAA,MAAM,GAAG,QAAQ,CAAC;AAClB,QAAA,IAAI,GAAG,MAAM,CAAC"}

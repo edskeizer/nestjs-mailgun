@@ -13,9 +13,9 @@ export declare class MailgunService {
     private readonly apiKey;
     private readonly domain;
     private readonly publicApiKey;
-    private readonly url;
+    private readonly host;
     private readonly mailgun;
-    constructor(apiKey: any, domain: any, publicApiKey: any, url: any);
+    constructor(apiKey: any, domain: any, publicApiKey: any, host: any);
     sendEmail(emailOptions: EmailOptions): Promise<boolean>;
     validateEmail(email: string): Promise<boolean>;
 }

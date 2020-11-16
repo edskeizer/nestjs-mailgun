@@ -902,20 +902,20 @@
         "signature": "abec56db8d9e8c0be53354ab0f3e6bc5a888ea005f32e43f9893ae1e49360db7"
       },
       "../src/nestjs-mailgun/configuration.ts": {
-        "version": "6efa67d038410e5c1e4047a140e9dfa4e98b2679347f579b94f974e9c2d0a88a",
-        "signature": "427a18f2e88fc46b0a66a7db8f13e18d97793ea1f6c5e83e836bf26e410c03ea"
+        "version": "dd3781cc28372f15b1ee85d44e6cebcc24bfa1db0e2b0a84db14e1c0ae77a0a6",
+        "signature": "ebca1cc6e6e06cf8ce737f0d62efc88dc6b546d5175b665686f7b01983943262"
       },
       "../src/nestjs-mailgun/tokens/tokens.ts": {
-        "version": "fa7022fb13cd561ba31254a1c98c93bcf1dd1f33768c9e4ec53abe020515d42d",
-        "signature": "818b1b1828b98d82a01aa83adeae74f72ee2649be6516768744ae2551a5e14f3"
+        "version": "e0725f7d91bfc8452789943631169e3f734c10067e4dec2a587cd0ffcfaaf276",
+        "signature": "019694e9217d42ee3a1325780873e26db52ff65e085363f26671cacab8ba8936"
       },
       "../src/nestjs-mailgun/services/relay/mailgun.service.ts": {
-        "version": "1baf3b2b77ae54921c10e17a313989683794b9195bbdd9d8fb084c150d35062d",
-        "signature": "00950cbe02bb05ee8681eb034d4da00b684d7e70af23364514ffd41c97fa5722"
+        "version": "38ac3eff1d3b9bc0652ab497a89f63abf8b0eb1c65405435c842f37d5160deee",
+        "signature": "fd684a1e456878ddda6ea1fda19b9e4ec61e05a8d80e5f0be68ffe71347b6cb2"
       },
       "../src/nestjs-mailgun/mailgun.module.ts": {
-        "version": "077b5991c338a8f99d41c582b41a114e39332d5651bf7552641fcf5b6dba4484",
-        "signature": "4a78558eed2426972b9968782d16b7cc7f8f8304c8d7cd596109be909b60660f"
+        "version": "2b155daa45af4a1968de2ab57ac65c1d2452b283de0274f1f787124687927782",
+        "signature": "a656e633f6ad33e7dfeb932662a662200a465efe0f51cbaeaabeb27686235f7b"
       },
       "../src/index.ts": {
         "version": "ae073bbfc33fa12a70d6d9f7e22c1423cb9a51ea036d83faa749f7ef010eec20",

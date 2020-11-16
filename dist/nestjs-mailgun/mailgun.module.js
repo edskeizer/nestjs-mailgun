@@ -21,7 +21,7 @@ let MailgunModule = MailgunModule_1 = class MailgunModule {
                     useValue: config.PUBLIC_API_KEY ? config.PUBLIC_API_KEY : '',
                 },
                 { provide: tokens_1.DOMAIN, useValue: config.DOMAIN },
-                { provide: URL, useValue: config.URL ? config.URL : 'https://api.mailgun.net' },
+                { provide: tokens_1.HOST, useValue: config.HOST ? config.HOST : 'api.mailgun.net' },
                 mailgun_service_1.MailgunService,
             ],
             exports: [mailgun_service_1.MailgunService],
